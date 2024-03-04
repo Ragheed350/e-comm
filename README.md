@@ -1,10 +1,4 @@
-# E-comm test, TypeScript React Tailwind Vite Template
-
-This template provides a starting point for creating React projects with TypeScript, Tailwind CSS, and Vite.
-
-## Overview
-
-This template allows you to quickly set up a React project with TypeScript, Tailwind CSS, and Vite. It provides a modern development environment with features such as hot module replacement and fast refresh, making it easy to develop and customize your React applications.
+# E-comm test, TypeScript React Tailwind Vite
 
 ## Features
 
@@ -18,28 +12,13 @@ This template allows you to quickly set up a React project with TypeScript, Tail
 
 ## Installation
 
-To create a new project using this template, follow these steps:
-
 1. Ensure that you have Node.js installed on your machine.
-2. Open a terminal and navigate to the directory where you want to create your project.
-3. Run the following command to create a new project using the template:
+2. Clone the project.
+3. Install the dependencies:
 
 ```bash
-npx create-vite@latest --template typescript-react-tailwind-vite my-project
-```
-
-Replace my-project with the desired name for your project.
-
-4. Once the command completes, navigate into the project directory:
-
-```bash
-cd my-project
-```
-
-5. Install the dependencies:
-
-```bash
-npm install
+npm install -g pnpm
+pnpm install
 ```
 
 ## Usage
@@ -47,7 +26,7 @@ npm install
 To start the development server and run the project, use the following command:
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 This will start the development server and open your project in the browser. Any changes you make to the source code will be automatically reflected in the browser.
@@ -57,7 +36,7 @@ This will start the development server and open your project in the browser. Any
 To build the project for production, use the following command:
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 This will create an optimized build of your project in the dist directory.
