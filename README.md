@@ -1,4 +1,4 @@
-# E-comm text, TypeScript React Tailwind Vite Template
+# E-comm test, TypeScript React Tailwind Vite Template
 
 This template provides a starting point for creating React projects with TypeScript, Tailwind CSS, and Vite.
 
